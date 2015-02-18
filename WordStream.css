@@ -8,6 +8,7 @@
 	outline: 0;
 	padding: 0;
 	margin: 0;
+	font-family: Arial;
 	}
 
 body{
@@ -18,75 +19,237 @@ body{
 
 .top-nav{
 	display: block;
-	background-color: blue;
+	height: 100px;
 }
 
-.top-nav div, li, h1, ul, button {
+.top-nav div, li, ul {
 	display: inline-block;
-	vertical-align: top;	
+	vertical-align: top;
+	padding-bottom: 3px;
+}
+
+.top-nav h1 {
+	display: inline-block;	
+	position: absolute;
+	margin-top: 30px;
+	font-size: 40px;
+}
+
+.top-nav button{
+	position: absolute;
+	vertical-align: top;
+	margin-left: 405px;
+	margin-top: -22px;
+	padding: 6px 16px;
+	font-size: 12px;
+	background-color: #1b779c;
+	color: white;
+	border-radius: 4px;
+}
+
+.top-nav img{
+	margin-top: 10px;
+	padding-top: 10px;
 }
 
 .top-nav div {
 	width: auto;
+	margin-left: 400px;
+	border-radius: 6px;
+	border: 1px #dbdbdb solid;	
+}
 
+.top-nav ul {
+	font-size: 12px;
+	padding-top: 3px;
+	color:#a1a0b7;
 }
 
 .gray{
 	color: gray;
 }
 
-.blue{
-	color: blue;
+.dblue{
+	color: #1b779c;
 }
 
 /*CALL TO ACTION*/
 
 .C2A{
 	display: block;
-	height: 70px;
-	background-color: beige;
+	height: 40px;
+	font-size: 40;
+	background-color: #007fbe;
+	color: white;
+	padding: 15px 0 0 10px;
+	font-size: 24px;
+	
 }
 
 /*LEFT HAND SIDE*/
 
 .left{
 	display: inline-block;
-	background-color: green;
 	vertical-align: top;
-	width: 30%;
+	width: 20.5%;
+	margin-left: 10px;
+	margin-top: 15px;
+	font-size: 12px;
+}
+
+.blue{
+	color: #1074bc;
+}
+
+.big{
+	font-size: 16px;
+}
+
+.red{
+	color: #fc2e15;
 }
 
 .top-left{
 	display: block;
+	border-bottom: 1px gray solid;
+}
+
+.demo{
+	padding: 6px 29px;
+	margin: 2px 0;
+	border-radius: 2px;
+	background-color: #22a1e0;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.free{
+	padding: 6px 52px;
+	margin: 6px 0 6px 0;
+	border-radius: 2px;
+	background-color: #e64806;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
 
 }
 
-.bottom-left{
+h2{
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+.bottom_left{
 	display: block;
 	background-image: url("WordStream_imgs/left.png");
 	background-repeat: no-repeat;
 	height: 250px;
 	width: 200px;
+	font-weight: bold;
+	margin-top: 15px;
+}
 
+.padding{
+	padding: 10px 0 3px 7px;
+	margin-top: 2px;
+	line-height: 145%;
+}
+
+.get{
+	padding: 3px 30px;
+	margin: 6px 0 6px 15px;
+	border-radius: 2px;
+	background-color: #0a4c78;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.line-height{
+	line-height: 220%;
 }
 
 /*BODY*/
 
 .body{
 	display: inline-block;
-	background-color: maroon;
-	width: 60%;
+	width: 70.5%;
+	margin-left: 46px;
+	margin-top: 15px;
+	font-size: 12px;
+}
+
+.top{
+	vertical-align: top;
+	}
+
+/*.top-body img, div, p{
+	display: inline-block;
+
+}*/
+
+.top-top{
+	vertical-align: top;
+	display: inline-block;
 
 }
 
-.top-body img, div, p{
+.top-top p{
+	position: relative;
+	margin-left: 45px;
+	margin-top: -16px;
+	height: 50px;
+
+}
+
+.whales img{
+	position: absolute;
+	margin-left: 430px;
+	margin-top: -11px;
 	display: inline-block;
-	background-color: orange;
+}
+
+.bbblue{
+	color:#1cb4fb;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.bigg{
+	font-size: 11.1px;
+}
+
+.righttext{
+	margin-left: 459px;
+}
+
+.ggray{
+	color:#686464;
+}
+
+.ggray2{
+	color:#686464;
+	font-size: 10.5px
+}
+.whales p{
+	position: absolute;
+	display: inline-block;
+	margin-top: -12px;
+}
+
+
+.right{
+	margin-left: 500px;
+}
+
+.top-body {
+	border-bottom: 1.5px #cbcbcb solid;
+	width: 680px;
 }
 
 .bottom-body img, div{
 	display: inline-block;
-	background-color: purple;
 }
 
 .bottom-body h3, p, button{
