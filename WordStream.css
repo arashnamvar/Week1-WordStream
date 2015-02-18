@@ -13,29 +13,42 @@
 
 body{
 	width: 970px;
+	background-color: rgb(247, 247, 247);
 }
 
 /*TOP NAV*/
 
-.top-nav{
+.catgirl{
 	display: block;
 	height: 100px;
 }
 
-.top-nav div, li, ul {
+.catgirl div {
 	display: inline-block;
 	vertical-align: top;
 	padding-bottom: 3px;
 }
 
-.top-nav h1 {
+.catgirl li {
+	display: inline-block;
+	vertical-align: top;
+	padding-bottom: 3px;
+}
+
+.catgirl ul {
+	display: inline-block;
+	vertical-align: top;
+	padding-bottom: 3px;
+}
+
+.catgirl h1 {
 	display: inline-block;	
 	position: absolute;
 	margin-top: 30px;
 	font-size: 40px;
 }
 
-.top-nav button{
+.catgirl button{
 	position: absolute;
 	vertical-align: top;
 	margin-left: 405px;
@@ -47,19 +60,19 @@ body{
 	border-radius: 4px;
 }
 
-.top-nav img{
+.catgirl img{
 	margin-top: 10px;
 	padding-top: 10px;
 }
 
-.top-nav div {
+.catgirl div {
 	width: auto;
 	margin-left: 400px;
 	border-radius: 6px;
 	border: 1px #dbdbdb solid;	
 }
 
-.top-nav ul {
+.catgirl ul {
 	font-size: 12px;
 	padding-top: 3px;
 	color:#a1a0b7;
@@ -205,7 +218,7 @@ h2{
 
 .whales img{
 	position: absolute;
-	margin-left: 430px;
+	margin-left: 425px;
 	margin-top: -11px;
 	display: inline-block;
 }
@@ -238,16 +251,15 @@ h2{
 	margin-top: -12px;
 }
 
-
-.right{
-	margin-left: 500px;
-}
-
 .top-body {
 	border-bottom: 1.5px #cbcbcb solid;
 	width: 680px;
 }
 
+.bottom-body div{
+	width: 600px;
+	vertical-align: top;
+}
 .bottom-body img, div{
 	display: inline-block;
 }
@@ -256,8 +268,60 @@ h2{
 	display: block;
 }
 
+.bottom-body{
+	border: 4px #89BDDD solid;
+	padding: 4px 0;
+}
+
+
+
 /*UNIVERSAL CSS*/
 
+strong {
+	font-weight: bold;
 
+}
+
+.bbbblue{
+	color: #1D6695;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.new{
+	display: block;
+	padding-left: 14px;
+	line-height: 150%;
+}
+
+.new2{
+	display: block;
+	line-height: 150%;
+	font-size: 16px;
+}
+
+.booty{
+	padding: 9px 30px;
+	border-radius: 4px;
+	background-color: #91AF1F;
+	color: white;
+	font-size: 12px;
+	border: 2px #648627 solid;
+}
+
+a{
+	color: #22a1e0;
+}
+
+.hats{
+	line-height:150%;
+}
+
+.miniblue {
+	color: #1D6695;
+	font-size: 14px;
+	font-weight: bold;
+
+}
 
 
